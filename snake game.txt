@@ -11,7 +11,7 @@ high_score = 0
 # Set up the screen
 
 wn = turtle.Screen()
-wn.title("Snake Game By Eli Mercury")
+wn.title("Snake Game By Doni")
 wn.bgcolor("green")
 wn.setup(width=600, height=600)
 wn.tracer(0) # Turns off the screen update
@@ -172,5 +172,6 @@ while True:
             pen.write("Score: {}  High Score: {}".format(score, high_score), align="center", font=("Courier", 24, "normal"))
 
     time.sleep(delay)
+
 
 wn.mainloop()
